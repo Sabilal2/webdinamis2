@@ -1,0 +1,95 @@
+/*kontak*/
+
+.content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: rgb(0, 0, 0);
+  }
+
+
+  /* Reset beberapa gaya default */
+  body, h2, form, label, input, textarea, button {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Gaya untuk bagian kontak */
+  .contact {
+    width: 90%;
+    max-width: 600px;
+    margin: center;
+    padding: 100px;
+    background-color: #000000;
+  }
+  
+  .contact h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+  }
+  
+  .contact form {
+    display: grid;
+    gap: 15px;
+  }
+  
+  .contact label {
+    font-size: 16px;
+  }
+  
+  .contact input,
+  .contact textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #030303;
+    border-radius: 5px;
+  }
+  
+  .contact button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .contact button:hover {
+    background-color: #555;
+  }
+  
+  body, h2, p, div {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Gaya untuk bagian kontak */
+  .contact {
+    width: 80%;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 40px;
+    background-color: #f4f4f4;
+  }
+  
+  .contact h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+  }
+  
+  .contact p {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  .contact-info p {
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
+  
+  .contact-info strong {
+    font-weight: bold;
+  }
